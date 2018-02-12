@@ -67,7 +67,7 @@ int init(int num_args, char **args, int val)
 		}
 		
 	}
-  /**
+  	/**
 	 * If the user gives two arguments of positive n
 	 * and (positive or negative) m:
 	 *   The program will print out the binary 
@@ -90,7 +90,7 @@ int init(int num_args, char **args, int val)
 		
 		ptr = bin_rep(NUM_BITS - 1, SEC_ARG);
 
-	 /* 
+	       /* 
 		* Print value
 		*/
 		if (val)
@@ -154,9 +154,9 @@ int init(int num_args, char **args, int val)
 					printf(single_output, ptr);
 			}
 		}
-		/* 
-		 * If m == l:
-		 *   The program will print out the binary 
+	  /* 
+	   * If m == l:
+	   *   The program will print out the binary 
 	   *   representation of m with n bits. 
 	   *   
 	   *   The program will give an error message if there 
