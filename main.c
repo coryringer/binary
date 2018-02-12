@@ -25,7 +25,7 @@
  */
 int main(int argc, char **argv)
 {
-	int errors;
+	int errors1;
 	
 	/*
 	 * Initiate the program and collect errors 
