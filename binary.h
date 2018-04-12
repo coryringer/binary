@@ -11,10 +11,10 @@
 #define NEG_BITS     0xFFFE
 #define TOO_FEW_BITS 0xFFFF
 
-#define PLAY(s) {\
-	printf("Which %s?\n", argv[1]);\
-	exit(0);\
-}
+#define PLAY(s) {                               \
+        printf("Which %s?\n", argv[1]);         \
+        exit(0);                                \
+    }
 
 int init(int, char **, int);
 bool is_integer(char *);
